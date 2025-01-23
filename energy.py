@@ -3,11 +3,11 @@ import requests
 import pandas as pd
 
 # USA zip information
-zipdf = pd.read_csv('uszips.csv')
+zipdf = pd.read_csv('db/uszips.csv')
 
 # USA energy provider information 
 # From: https://catalog.data.gov/dataset/u-s-electric-utility-companies-and-rates-look-up-by-zipcode-2022
-energydf = pd.read_csv('iou_zipcodes_2022.csv')
+energydf = pd.read_csv('db/iou_zipcodes_2022.csv')
 
 # Takes a zip code and outputs the town
 def zip_to_town(zip: int) -> str:
