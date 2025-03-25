@@ -1,4 +1,4 @@
----Written by Elijah Wood in February 2024---
+---Written by Elijah Wood in March 2024---
 This script uses pandas to parse a csv file containing energy providers and their rates.
 It is important to note that the information within the csv file will continue to become more outdated unless updated.
 As an example of use, the script asks the user for their zip code, then outputs their energy provider and rates.
